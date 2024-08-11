@@ -1,11 +1,7 @@
 type: t2.micro
-
 key: MyKey
-
 sg_name: launch-wizard-1
-
 region_name: us-east-1
-
 images:
   - { image: ami-04a81a99f5ec58529, name: ManagedNode-1} # Ubuntu
 # - { image: ami-0583d8c7a9c35822c, name: ManagedNode-2} # Red Hat
