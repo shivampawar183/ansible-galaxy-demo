@@ -13,4 +13,5 @@
       assign_public_ip: true
       tags:
         environment: "{{ item.name }}"
+  
   loop: "{{ images }}"
