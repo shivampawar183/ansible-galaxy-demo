@@ -13,7 +13,4 @@
       assign_public_ip: true
       tags:
         environment: "{{ item.name }}"
-  loop:
-    - { image: "ami-04a81a99f5ec58529", name: "ManagedNode 1"}
-    # - { image: "ami-0ae8f15ae66fe8cda"", name: "ManagedNode 2"}
-
+  loop: "{{ images }}"
