@@ -1,2 +1,4 @@
----
-# defaults file for EC2
+type: t2.micro
+key: MyKey
+sg_name: launch-wizard-1
+region_name: us-east-1
